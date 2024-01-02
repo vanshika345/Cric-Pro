@@ -1,0 +1,128 @@
+/* Type your code here */
+* {
+  padding: 15px 18px 15px 18px;
+  margin: 0px;
+  
+}
+
+h1 {
+  text-shadow: 1px 2px 3px black;
+  font-size: xxx-large;
+  height: 3vh;
+}
+
+h3 {
+  color: rgb(148, 148, 157);
+  font-size: 25px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+
+table {
+  height: 45vh;
+  width: 60vw;
+  align-items: center;
+  background-color: white;
+  padding: 0px;
+  font-size: 17px;
+  box-shadow: 1px 1px 3px rgb(218, 208, 208);
+}
+
+table tr {
+  border-bottom: 2px solid black;
+}
+
+body {
+  background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+  background-size: cover;
+}
+
+td:first-child {
+  color: rgb(52, 169, 224);
+  font-weight: 500;
+}
+
+.ScoreCard td {
+  background-color: red;
+  color: white;
+}
+
+.ScoreCard td:last-child {
+  background-color: red;
+  color: white;
+  text-align: right;
+}
+
+.stats td {
+  color: black;
+  font-weight: 600;
+  background-color: rgb(241, 241, 244);
+}
+
+.DNB td {
+  color: black;
+  font-weight: 600;
+  text-align: left;
+}
+
+.Total td:first-child {
+  color: black;
+  font-weight: 600;
+}
+.Extras td:first-child {
+  color: black;
+  font-weight: 600;
+}
+
+td {
+  border-bottom: 2px solid rgb(205, 198, 198);
+  font-weight: 600;
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
+  height: 6vh;
+}
+
+tr td:last-child {
+  text-align: right;
+}
+
+nav {
+  padding: 0px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
+}
+
+.DNB td:last-child {
+  color: rgb(52, 169, 224);
+  font-weight: 500;
+  text-align: left;
+}
+
+.Total td:last-child {
+  text-align: left;
+}
+
+.Extras td:last-child {
+  text-align: left;
+}
+
+.bowl {
+  color: rgb(141, 140, 140);
+  font-weight: 500;
+}
+#heart{
+  color: red;
+}
+.popupImage{
+  display: none;
+  z-index: 1;
+  position: absolute;
+}
+.batsman:hover{
+  cursor: pointer;
+}
+.popupImage img{
+  height:300px;
+}
